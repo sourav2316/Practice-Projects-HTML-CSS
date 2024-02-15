@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+}
+
+header{
+    border: 1px solid #ccc;
+    height: 100vh;
+}
+
+nav{
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    border: 1px solid #ccc;
+}
+
+nav h1{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    color: black;
+}
+
+main{
+    min-height: 100vh;
+    padding: 10px;
+    margin-left: 260px;
+}
+
+article p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+article ul li{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.whats h2{
+    margin-top: 35px;
+}
+
+.whats p{
+    margin-top: 15px;
+}
+
+.js h2{
+    margin-top: 35px;
+}
+
+.js p{
+    margin-top: 15px;
+}
+
+.hello h2{
+    margin-top: 35px;
+}
+
+.p{
+    margin-bottom: 45px;
+}
+
+code{
+    background-color: #e9e8e8;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.q{
+    margin-top: 45px;
+}
+
+.var{
+   margin-bottom: 200px;
+}
+
+.var h2{
+    margin-top: 35px;
+}
+
+.var p{
+    margin-top: 15px;
+}

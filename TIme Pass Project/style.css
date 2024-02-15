@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: black;
+    color: white;
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main{
+    margin-top: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.time{
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    transition: 0.3s ease-out;
+}
+
+.time:hover{
+    background-color: rgb(214, 187, 239);
+    transform: scale(1.3);
+    color: black;
+    transition: 0.3s ease-in;
+}
+
+.second{
+    margin-top: 30px;
+}
+
+.gallery{
+    display: flex;
+    width: 30%;
+    height: 250px;
+    gap: 5px;
+    margin: 100px;
+}
+
+.gallery img{
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.gallery img:hover{
+    width: 100%;
+    scale: 1.1;
+}
+
+.container2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: 0.2s all ease;
+}
+
+.last:hover{
+    background-color: rgb(214, 187, 239);
+    transform: scale(1.09);
+    color: black;
+    transition: 0.2s all ease;
+}
+
+.last ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+footer{
+    margin-bottom: 100px;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.ani{
+    font-size: 60px;
+    background: linear-gradient(to right, #3567bd 35%, rgb(255, 3, 3));
+    background-size: 300% auto;
+    background-clip: text;
+    color: transparent;
+    animation: gradient 3s linear infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 75%;
+    }
+    50% {
+        background-position: 100% 30%;
+    }
+    100% {
+        background-position: 0% 75%;
+    }
+}

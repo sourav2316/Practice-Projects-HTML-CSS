@@ -1,0 +1,120 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.img1{
+    background-image: url(image1.png);
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url(image2.png);
+    min-height: 100%;
+}
+
+.img3{
+    background-image: url(image3.png);
+    min-height: 100%;
+}
+
+.img1,.img2,.img3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    font-size: 30px;
+    background-color: rgb(229, 241, 245);
+    padding: 30px;
+    border-radius: 20px;
+    color: black;
+}
+
+.one{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.one-light{
+    background-color: rgb(229, 241, 245);
+    color: black;
+}
+
+/* section 2 */
+
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg2{
+    font-size: 30px;
+    background-color: darkslategrey;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.two{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.two-light{
+    background-color: darkslategrey;
+    color: white;
+}
+
+/* section 3*/
+
+.ptext3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg3{
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.three{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.three-light{
+    background-color: black;
+    color: white;
+}
